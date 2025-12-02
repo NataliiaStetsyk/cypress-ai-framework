@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": ["ES2019", "DOM"],
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "types": ["cypress", "node"]
+  },
+  "include": ["integration/**/*.ts", "integration/**/*.cy.ts", "support/**/*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,10 @@
+{
+  "user": {
+    "username": "testuser",
+    "password": "password123"
+  },
+  "ai_prompt_example": {
+    "name": "short_product_description",
+    "prompt": "Write a short, friendly product description for {{productName}} in 2-3 sentences."
+  }
+}

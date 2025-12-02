@@ -1,0 +1,22 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "npm run cypress:run",
+    "start": "node server.js",
+    "start:dev": "node server.js"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^18.0.0",
+    "openai": "^4.0.0",
+    "cypress-image-snapshot": "^4.0.0",
+    "mochawesome": "^6.2.2",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
